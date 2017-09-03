@@ -1,3 +1,4 @@
+<?
 if(isset($_GET['http'])){
 	$timei = time();
     $server = $_GET['ip'];
@@ -34,3 +35,4 @@ if(isset($_GET['http'])){
         }
     }
 }
+?>
