@@ -1,6 +1,6 @@
 <?
 if(isset($_GET['http'])){
-	$timei = time();
+    $timei = time();
     $server = $_GET['ip'];
     $time = $_GET['time'];
     $req =  array('POST','GET','HEAD');
